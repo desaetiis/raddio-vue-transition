@@ -88,7 +88,7 @@ new Vue({
   },
 
   beforeMount() {
-    fetch('https://s3-us-west-2.amazonaws.com/s.cdpn.io/450744/mock-data.json')
+    fetch('../data.json')
       .then(response => response.json())
       .then(companies => {
         this.companies = companies
