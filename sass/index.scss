@@ -1,12 +1,15 @@
 @import 'reset';
-
+html {
+  background-color: rgba(#1D1E1F, 0.95);
+}
 .content {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
-  color: #3d5358;
+  color: #D1D2D2;
   max-width: 780px;
   margin: 0 auto;
+
 
   &__list {
     position: relative;
@@ -27,7 +30,7 @@
   margin-top: 1rem;
   padding-top: 0.75rem;
   border-radius: 6px;
-  background-color: white;
+  background-color: transparent;
   box-shadow: 0 0 0 1px #c5d0d1;
   backface-visibility: hidden;
   transform-origin: 10% 50%;
@@ -83,8 +86,8 @@
     justify-content: space-between;
     margin-top: 1.5rem;
     padding: 0.5rem 0.75rem;
-    background-color: rgba(#c5d0d1, 0.1);
-    border-top: 1px solid #c5d0d1;
+    background-color: rgba(#9B9B9D, 0.1);
+    border-top: 1px solid #9B9B9D;
   }
 
   &__country:hover {
@@ -100,7 +103,7 @@
   white-space: nowrap;
   margin: 0 1rem;
   padding: 2rem 0.5rem 1rem;
-  border-bottom: 1px solid #c5d0d1;
+  border-bottom: 1px solid #9B9B9D;
 
   &__controls { display: flex }
 
@@ -128,7 +131,7 @@
     }
 
     &--clear {
-      color: #f68185;
+      color: #35AC75;
       opacity: 0;
       transform: translate3d(-25%, 0, 0);
       pointer-events: none;
@@ -146,12 +149,12 @@
 
     &--filter::after {
       content: '\2022';
-      color: #46d2c4;
+      color: #35AC75;
     }
 
     &--active::after {
       content: '\00d7';
-      color: #f68185;
+      color: #35AC75;
     }
   }
 }
@@ -169,7 +172,9 @@
     left: 0;
     width: 100%;
     height: 1rem;
-    background-image: linear-gradient(to top, white, rgba(white, 0));
+    margin: 0 1rem;
+    border-bottom: 1px solid #9B9B9D;
+    background-image: linear-gradient(to top, #1D1E1F, rgba(#1D1E1F, 0));
   }
 
   &-enter,
@@ -205,12 +210,12 @@
     cursor: pointer;
     transition: all 275ms;
 
-    &:hover { border-color: #379a93 }
+    &:hover { border-color: #35AC75 }
 
     &--active {
       color: white;
-      border-color: #379a93;
-      background-color: #379a93;
+      border-color: #35AC75;
+      background-color: #35AC75;
     }
   }
 
@@ -238,7 +243,7 @@
     &::-webkit-slider-runnable-track {
       width: 100%;
       height: 4px;
-      background-image: linear-gradient(to right, white, #46d2c4);
+      background-image: linear-gradient(to right, white, #35AC75);
     }
   }
 }
@@ -323,4 +328,14 @@
       opacity: 1;
     }
   }
+}
+h1 {
+  //font-family: sans-serif;
+  color: #35AC75;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+h2 {
+  padding: 0 1rem;
+  text-align: center;
 }

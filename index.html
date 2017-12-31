@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>VueJS transition and transition-group demo</title>
+  <title>Asculta radio - Raddio | Immigrant radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Nunito:200,300,400'>
   <link rel="stylesheet" href="/assets/css/index.css">
@@ -50,7 +50,8 @@
         </template>
       </menu>
     </transition-group>
-
+    <h1>raddio</h1>
+    <h2>Immigrant Radio</h2>
     <transition-group name="company" tag="ul" class="content__list">
       <li class="company" v-for="company in list" :key="company.id">
         <div class="company__info">
@@ -79,12 +80,11 @@
     <transition name="modal">
       <section v-if="modal" class="modal" @click="modal = false">
         <article class="modal__content" @click.stop>
-          <h4 class="modal__title">For the full tutorial</h4>
-          <h4 class="modal__title">that goes with this pen</h4>
+          <h4 class="modal__title">The app is loading...</h4>
 
           <h5 class="modal__link" @click="modal = false">
-            <a href="https://snipcart.com/blog/vuejs-transitions-animations" target="_blank">
-              Creating Vue.js Transitions &amp; Animations
+            <a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p" target="_blank">
+              BBC Radio One
             </a>
           </h5>
 
@@ -93,6 +93,25 @@
       </section>
     </transition>
   </main>
+  <!--PLAYER AREA -->
+  <script id="radioPlayerTemplate" type="x-tmpl-mustache">
+                        <div id="radio-player" class="f" data-matching-link="#radio-player-link" >
+                                <div class="station--info">
+                                    <a href="" id="currentRadioStation">
+                                        {{ name }}
+                                    </a>
+                                    <p id="current-song" class="station-grid-wrapper--station__current-song">
+                                    </p>
+                                </div>
+                                    <button type="button" class="btn--player" id="playToggle">
+                                        <i class="material-icons md-light md-48 btn-player">play_arrow</i>
+                                    </button>
+                        </div>
+
+
+
+    </script>
+  <!--END PLAYER AREA -->
 
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.js'></script>
