@@ -226,5 +226,57 @@
       "music",
       "world news"
     ]
+  },
+  {
+    "id": "98-40c2-fad",
+    "name": "Radio Moldova",
+    "country": "Moldova",
+    "rating": 8.1,
+    "color": "#35AC75",
+    "slogan": "TRM",
+    "logo": "#logo18",
+    "url": "http://radiolive.trm.md:8000/PGM1_128kb",
+    "meta_url": "https://api.radio.net/info/v2/search/nowplaying?_=1514755441524&apikey=e8e10939b65da5e2c00301830d8ae12eecb24238&numberoftitles=10&station=14084",
+    "keywords": [
+      "standard content",
+      "music",
+      "world news",
+      "talk"
+    ]
+  },
+  {
+    "id": "83-46be-94d",
+    "name": "Kiss FM Moldova",
+    "country": "Moldova",
+    "rating": 8.2,
+    "color": "#35AC75",
+    "slogan": "Moldova kisses",
+    "logo": "#logo19",
+    "url": "http://89.28.66.205:8000/;stream.mp3",
+    "meta_url": "https://api.radio.net/info/v2/search/nowplaying?_=1514755441524&apikey=e8e10939b65da5e2c00301830d8ae12eecb24238&numberoftitles=10&station=14084",
+    "keywords": [
+      "standard content",
+      "music",
+      "world news",
+      "talk"
+    ]
+  },
+  {
+    "id": "96-4226-a8a",
+    "name": "Radio Noroc",
+    "country": "Moldova",
+    "rating": 4.3,
+    "color": "#35AC75",
+    "slogan": "...Din inima Moldovei.",
+    "logo": "#logo20",
+    "url": "http://live.noroc.tv:8000/radionoroc.mp3",
+    "meta_url": "",
+    "keywords": [
+      "standard content",
+      "music",
+      "world news",
+      "talk",
+      "folklore"
+    ]
   }
 ]
