@@ -1,6 +1,6 @@
-# VueJS transition & transition-group demo
+# raddio-vue
 
-This repo contains the code for a demo from our blog post "Creating Vue.js Transitions & Animation: Live Examples".
+This repo is a mod of the blog post "Creating Vue.js Transitions & Animation: Live Examples".
 
 >[Try it on CodePen](https://codepen.io/udyux/pen/EwwPgr)
 

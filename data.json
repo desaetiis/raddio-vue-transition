@@ -4,15 +4,14 @@
     "name": "Radio Tananana",
     "country": "Romania",
     "rating": 5.5,
-    "color": "#b7b583",
-    "slogan": "best-of-breed initiatives",
+    "color": "#35AC75",
+    "slogan": "Bucharest 92.7 FM",
     "logo": "#logo1",
     "url": "http://live.tananana.ro:8010/stream-48.aac",
     "meta_url": "http://www.tananana.ro/live/meta.php",
     "keywords": [
-      "business-focused",
-      "product optimization",
-      "emulation"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -20,13 +19,14 @@
     "name": "Radio ZU",
     "country": "Romania",
     "rating": 8.6,
-    "color": "#50afb1",
-    "slogan": "bricks-and-clicks e-tailers",
+    "color": "#35AC75",
+    "slogan": "Contemporary Hit Radio",
     "logo": "#logo2",
     "url": "http://live.romanticfm.ro:9123/radiozu.mp3",
     "meta_url": "http://radiozu.ro/ajax/stream",
     "keywords": [
-      "customer loyalty"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -34,15 +34,15 @@
     "name": "Romania Actualitati",
     "country": "Romania",
     "rating": 9.0,
-    "color": "#5a8285",
-    "slogan": "vertical e-services",
+    "color": "#35AC75",
+    "slogan": "Acoperire nationala!",
     "logo": "#logo3",
     "url": "http://stream2.srr.ro:8000/;stream/1",
     "meta_url": "http://stream2.srr.ro:8000/7.html",
     "keywords": [
-      "user-centric",
-      "data-warehouse",
-      "emulation"
+      "social content",
+      "political content",
+      "music"
     ]
   },
   {
@@ -50,13 +50,14 @@
     "name": "Magic FM",
     "country": "Romania",
     "rating": 7.2,
-    "color": "#6e7039",
-    "slogan": "synergized web-readiness",
+    "color": "#35AC75",
+    "slogan": "Muzica inimii tale",
     "logo": "#logo6",
     "url": "http://live.magicfm.ro:9128/magicfm.aacp#AAC",
     "meta_url": "https://api.kissfm.ro/api/tracklist",
     "keywords": [
-      "cross-platform"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -64,15 +65,15 @@
     "name": "Europa FM",
     "country": "Romania",
     "rating": 9.3,
-    "color": "#227f05",
-    "slogan": "visionary interfaces",
+    "color": "#35AC75",
+    "slogan": "Cea mai bună muzică din 80 până azi.",
     "logo": "#logo7",
+    "logo2": "assets/images/logos/europafm.png",
     "url": "http://89.37.58.103:8000/europafm_mp3_64k",
     "meta_url": "https://www.europafm.ro/track_info.json",
     "keywords": [
-      "internet solutions",
-      "security solutions",
-      "content strategy"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -80,13 +81,14 @@
     "name": "Kiss FM",
     "country": "Romania",
     "rating": 6.0,
-    "color": "#068e82",
-    "slogan": "open-source partnerships",
+    "color": "#35AC75",
+    "slogan": "Kissing music!",
     "logo": "#logo23",
     "url": "http://live.kissfm.ro:9128/kissfm.aacp#AAC",
     "meta_url": "https://api.kissfm.ro/api/tracklist",
     "keywords": [
-      "benchmark framework"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -94,15 +96,14 @@
     "name": "Romantic FM",
     "country": "Romania",
     "rating": 9.1,
-    "color": "#d98054",
-    "slogan": "deployment channels",
+    "color": "#35AC75",
+    "slogan": "Pentru romantici!",
     "logo": "#logo8",
     "url": "http://live.romanticfm.ro:9123/romanticfm.mp3",
     "meta_url": "http://romanticfm.ro/radio",
     "keywords": [
-      "migration services",
-      "service-desk",
-      "organic engagement"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -110,14 +111,14 @@
     "name": "National FM",
     "country": "Romania",
     "rating": 8.4,
-    "color": "#339b94",
-    "slogan": "engineering B2B",
+    "color": "#35AC75",
+    "slogan": "Muzica romaneasca.",
     "logo": "#logo9",
     "url": "http://live3.nationalfm.ro:8001/;stream.nsv#AAC",
     "meta_url": "http://live3.nationalfm.ro:8001/7.html",
     "keywords": [
-      "business-focused",
-      "security solutions"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -125,13 +126,14 @@
     "name": "Virgin Radio",
     "country": "Romania",
     "rating": 4.9,
-    "color": "#9bd0d3",
-    "slogan": "cross-platform e-services",
+    "color": "#35AC75",
+    "slogan": "Muzica doar pt virgini si virgine!",
     "logo": "#logo10",
     "url": "http://astreaming.virginradio.ro:8000/virgin_mp3_64k",
     "meta_url": "https://virginradio.ro/track_info.json",
     "keywords": [
-      "customer loyalty"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -139,13 +141,14 @@
     "name": "Guerrilla Radio",
     "country": "Romania",
     "rating": 8.6,
-    "color": "#efe77e",
-    "slogan": "targeted demographics",
+    "color": "#35AC75",
+    "slogan": "Muzica de atac!",
     "logo": "#logo11",
     "url": "http://live.guerrillaradio.ro:8010/guerrilla.aac#AACP",
     "meta_url": "http://www.guerrillaradio.ro/player/data/id3.txt",
     "keywords": [
-      "knowledge base"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -153,29 +156,29 @@
     "name": "Rock FM",
     "country": "Romania",
     "rating": 9.4,
-    "color": "#64c272",
-    "slogan": "bleeding-edge synergies",
+    "color": "#35AC75",
+    "slogan": "Pai numa' rock!",
     "logo": "#logo12",
     "url": "http://live.rockfm.ro:9128/rockfm.aacp#AAC",
     "meta_url": "https://api.rockfm.ro/api/tracklist",
     "keywords": [
-      "artificial intelligence",
-      "graphic interfaces",
-      "business-focused"
+      "standard content",
+      "music"
     ]
   },
   {
     "id": "b1-4c29-925",
-    "name": "DIGI FM",
+    "name": "Digi FM",
     "country": "Romania",
     "rating": 5.1,
-    "color": "#e8a25d",
-    "slogan": "B2C deliverables",
+    "color": "#35AC75",
+    "slogan": "Preferata taximetristilor.",
     "logo": "#logo14",
     "url": "http://edge76.rdsnet.ro:84/digifm/digifm.mp3",
     "meta_url": "https://api.rockfm.ro/api/tracklist",
     "keywords": [
-      "focus groups"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -183,13 +186,14 @@
     "name": "Qingting FM",
     "country": "China",
     "rating": 5.0,
-    "color": "#f7ce1b",
-    "slogan": "redefine web-readiness",
+    "color": "#35AC75",
+    "slogan": "Chinese news and music.",
     "logo": "#logo15",
     "url": "http://lhttp.qingting.fm/live/386/64k.mp3",
     "meta_url": "http://i.qingting.fm/wapi/channels/386",
     "keywords": [
-      "artificial intelligence"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -197,13 +201,14 @@
     "name": "BBC Radio One",
     "country": "UK",
     "rating": 8.9,
-    "color": "#5d8669",
-    "slogan": "real-time metrics",
+    "color": "#35AC75",
+    "slogan": "The newest music.",
     "logo": "#logo16",
-
+    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
+    "meta_url": "https://polling.bbc.co.uk/radio/nhppolling/bbc_radio_one?callback=realtimeCallback",
     "keywords": [
-      "graphic interfaces",
-      "data-warehouse"
+      "standard content",
+      "music"
     ]
   },
   {
@@ -211,15 +216,15 @@
     "name": "BBC World Service",
     "country": "UK",
     "rating": 7.2,
-    "color": "#a6ed56",
-    "slogan": "network architects",
+    "color": "#35AC75",
+    "slogan": "News radio.",
     "logo": "#logo17",
-    "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
-    "meta_url": "https://polling.bbc.co.uk/radio/nhppolling/bbc_radio_one?callback=realtimeCallback",
+    "url": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk",
+    "meta_url": "https://polling.bbc.co.uk/radio/nhppolling/bbc_world_service?&callback=nhprealtimepolling",
     "keywords": [
-      "product optimization",
-      "data-warehouse",
-      "service-desk"
+      "standard content",
+      "music",
+      "world news"
     ]
   }
 ]

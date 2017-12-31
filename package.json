@@ -1,14 +1,14 @@
 {
-  "name": "vue-animate-demo",
+  "name": "raddio-vue",
   "version": "1.0.0",
-  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/udyux/pen/aLVXOg.",
+  "description": "Radio streaming web app.",
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build",
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Spektrum Media <geeks@spektrummedia.com>",
+  "author": "desaetiis@gmail.com",
   "spk-meta": {
     "uid": "gulp",
     "hash": "aca6317f4ee62ef60abe872af9872a4653bfb03b",
@@ -34,6 +34,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
     "log-symbols": "^2.0.0",
     "node-notifier": "^5.1.2",
     "rollup-plugin-babel": "^2.7.1",
